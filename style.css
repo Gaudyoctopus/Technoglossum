@@ -216,22 +216,47 @@ header {
   z-index: 1;
 }
 
-.about:nth-child(2) .about_icon {
+.about_icon1 {
   background: var(--color-danger);
 }
-.about:nth-child(3) .about_icon {
+.about_icon2 {
   background: var(--color-success);
 }
-.about:nth-child(4) .about_icon {
+.about_icon3 {
   background: var(--color-warning);
 }
-.about:nth-child(5) .about_icon {
+.about_icon4 {
   background: var(--color-success);
+}
+.about_icon5 {
+  background: var(--color-warning);
+}
+.about_icon6 {
+  background: var(--color-danger);
 }
 
 
-.about_icon {
-  background: var(--color-primary);
+.about_icon1 {
+  padding: 0.7rem;
+  border-radius: 0.9rem;
+}
+.about_icon2 {
+  padding: 0.7rem;
+  border-radius: 0.9rem;
+}
+.about_icon3 {
+  padding: 0.7rem;
+  border-radius: 0.9rem;
+}
+.about_icon4 {
+  padding: 0.7rem;
+  border-radius: 0.9rem;
+}
+.about_icon5 {
+  padding: 0.7rem;
+  border-radius: 0.9rem;
+}
+.about_icon6 {
   padding: 0.7rem;
   border-radius: 0.9rem;
 }
